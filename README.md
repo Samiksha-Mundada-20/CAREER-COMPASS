@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# Personalized Career & Skills Advisor
 
-## Project info
+## Project Overview
+**Problem:**  
+Students in India often face a confusing array of career options and generic guidance that doesn’t consider their unique interests, aptitudes, or the fast-evolving job market.  
 
-**URL**: https://lovable.dev/projects/b81ba060-6d2f-4ba9-badd-c9c9b43b8332
+**Solution:**  
+Our AI-powered tool helps students discover personalized career paths based on their skills and interests. It provides actionable learning paths and skill recommendations, empowering students to make informed decisions about their future.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## How It Works
+1. **User Input:** Students enter their profile details and interests.  
+2. **Lovable UI:** Collects input via an interactive, user-friendly interface.  
+3. **Generative AI (Gemini Studio):** Processes inputs and suggests personalized career matches.  
+4. **Result Card:** Displays:  
+   - Best-fit career(s)  
+   - Required skills  
+   - Learning path steps  
+5. **Optional:** Students can explore the recommended learning path and resources.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b81ba060-6d2f-4ba9-badd-c9c9b43b8332) and start prompting.
+## Tech Stack
+- **Lovable:** No-code React UI for input and display  
+- **Gemini AI Studio:** Generative AI for personalized career suggestions  
+- **Python / Node.js:** Optional for local testing or server deployment  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Screenshots
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+![Lovable Input]
+<img width="1165" height="1078" alt="Screenshot 2025-09-21 142416" src="https://github.com/user-attachments/assets/e31c121a-2041-4f8f-9991-19cc398685b5" />
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Career Result Card](screenshots/output.png)  
+<img width="798" height="841" alt="Screenshot 2025-09-21 142446" src="https://github.com/user-attachments/assets/5b4a20ce-bdc4-44cc-95b0-52d74beb9de6" />
 
-Follow these steps:
+![Gemini AI Output](screenshots/gemini_output.png)  
+<img width="1278" height="840" alt="Screenshot 2025-09-21 144623" src="https://github.com/user-attachments/assets/6b07f67e-57ba-4a70-b1fc-7f67dfd7a643" />
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+## How to Run Locally
+> Only required if someone wants to test the UI
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Navigate to the project folder:
+
+```bash
+cd "path-to-project-folder"
+
+2. Install dependencies (if React/Vite):
+bash
+
+3. Copy code
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+4.Start the development server:
+Open browser: http://localhost:3000
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b81ba060-6d2f-4ba9-badd-c9c9b43b8332) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For static HTML projects, open index.html in a browser.to-project-folder"
